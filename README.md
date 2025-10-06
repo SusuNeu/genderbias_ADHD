@@ -1,9 +1,13 @@
 # genderbias_ADHD
-This project addresses gender bias in ADHD diagnoses. The code covers the analyses as described in the publication  "Toward a fair, gender-debiased classifier for the diagnosis of attention deficit/hyperactivity disorder- a Machine-Learning based classification study"
+This project addresses gender bias in ADHD diagnoses. 
+The code covers the analyses as described in the publication  
+"Toward a fair, gender-debiased classifier for the diagnosis of attention deficit/hyperactivity disorder- a Machine-Learning based classification study"
 
 
 ## Description
-This project addresses gender bias in ADHD diagnoses. The analysis is implemented using Python and includes scikit-learn components for machine learning tasks. For bias mitigation, algorithms of the AI Fairness 360 repository are used. 
+This project addresses gender bias in ADHD diagnoses. 
+The analysis is implemented using Python and includes scikit-learn components for machine learning tasks.
+For bias mitigation, algorithms of the AI Fairness 360 repository are used. 
 
 
 ## Prerequisites
@@ -17,14 +21,14 @@ This project addresses gender bias in ADHD diagnoses. The analysis is implemente
 ## Installation
 ```bash
 # Clone the repository
-git clone [your-repository-url]
+git clone [repository -URL]
 
 # Install required packages
 pip install -r requirements.txt
 ```
 
 ## Usage
-1. Open the Jupyter notebook:
+1. Open the python file:
 ```bash
 py GenderBias_ADHD.py
 ```
@@ -38,18 +42,18 @@ py GenderBias_ADHD.py
 - requirements.txt
 
 ## Functions Overview
-### (1) general functions part cover 
+### (1) 'general functions' part covers 
 - training/evaluation of SVM and XGBoost models  
 - bias metrics determination
 - XAI
 
-### (2) creating input part includes 
-### Preprocessing fucntions
+### (2) 'creating input' part includes 
+### Preprocessing functions
 - loading and cleaning of the data
 - creating binary datasets
 - split and preprocess data using SMOTE and StandardScaler
 
-### (3) Debiasing Algorithms includes 
+### (3) 'Debiasing Algorithms' includes 
 ### Analysis Functions for 5 different algorithms 
 - Adversarial Debiasing
 - Prejudice Remover
@@ -75,3 +79,7 @@ py GenderBias_ADHD.py
 
 ## Contact
 suneu@tutanota.com
+
+
+
+
