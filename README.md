@@ -28,9 +28,10 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-1. Open the python file:
+1. Open the python or jupyter notebook file:
 ```bash
 py GenderBias_ADHD.py
+code GenderBias_ADHD.ipynb
 ```
 
 
