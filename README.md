@@ -38,9 +38,14 @@ code GenderBias_ADHD.ipynb
 ## Project Structure
 ## file overview
 - `GenderBias_ADHD.py`: Main file containing the analysis
-- 'CMI_400.csv': training data, 
-- 'CMI_400_test.csv': test data
-- requirements.txt
+- 'GenderBias_ADHD.ipynb': Main file as jupyter notebook
+- 'CMI_400.csv': fMRI and clincal training data 
+- 'CMI_400_test.csv': fMRI and clincal test data
+- 'dtrain.csv': structural MRI training data (radiomic features)
+- 'dtest.csv': structural MRI test data (radiomic features)
+- 'license.txt': MIT license
+- 'requirements.txt': requirements
+- 'README.md': instructions and information
 
 ## Functions Overview
 ### (1) 'general functions' part covers 
